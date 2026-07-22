@@ -10,7 +10,7 @@ requires-python = ">=3.11, <3.13"
 
 dependencies = [
     "limits>=5.0,<6",
-    "pycti==7.260715.0",
+    "pycti @ git+https://github.com/blauwers/opencti.git@f8891ac415b4d77627ecf5b4298fd413c3c478e5#subdirectory=client-python",
     "pydantic>=2.8.2,<3", # ISO pycti https://github.com/OpenCTI-Platform/client-python/blob/master/requirements.txt#L8
     "pydantic_settings>= 2.9.1,<3", # Actual minimal version used in the connectors
     "requests>=2.31.0,<3",
